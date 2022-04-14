@@ -1,9 +1,12 @@
+import { Content } from './components/Content/Content';
+import { Navbar } from './components/Navbar/Navbar';
 import './global.scss'
 
 function App() {
   return (
     <div className="App">
-      <h1>testando rest</h1>
+      <Navbar />
+      <Content />
     </div>
   );
 }
