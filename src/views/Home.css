@@ -1,0 +1,51 @@
+.home {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5rem;
+}
+
+.home-left {
+   width: 400px
+}
+
+.home-left h2 {
+   text-transform: uppercase;
+   font-size: 6rem;
+}
+
+.home-left h2:last-child {
+   margin-bottom: 1rem;
+}
+
+.home-left h3 {
+   display: inline-block;
+   font-size: 2rem;
+   padding: .5rem;
+   outline: .2rem solid var(--yellow-500);
+   border-radius: 1.25rem;
+}
+
+.home-left p {
+   margin-bottom: 1rem;
+   word-break: break-all;
+   line-height: 2;
+}
+
+.home-bottom {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.home button {
+   color: #fff;
+   border: none;
+   background-color: transparent;
+   font-size: 2rem;
+}
+
+.home-right img {
+   height: 400px;
+   width: 400px;
+}

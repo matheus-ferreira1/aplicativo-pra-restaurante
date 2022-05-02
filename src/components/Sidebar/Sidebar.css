@@ -1,5 +1,5 @@
 .sidebar {
-   background-color: var(--gray-850);
+   outline: 1px solid var(--my-gray);
    width: 15%;
    padding: 2rem;
 }
